@@ -1,0 +1,105 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    width: 1020px;
+}
+
+/*CABECERA*/
+
+.ContenedorA{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+/* CUERPO PRINCIPAL */
+main{
+    overflow: hidden;
+    margin-top: 40px;
+}
+li{
+    list-style: none;
+}
+
+/* LISTA LATERAL*/
+
+
+.ContenedorB{
+    width: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.ContenedorB ul{
+    padding-left: 0%;
+}
+.ContenedorB ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.ContenedorB ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;   
+}
+
+
+/*CARTA*/
+
+.ContenedorC{
+    width: 610px;
+    float: right;
+    padding-left: 15px;
+    border-left: 1px solid black ;
+   
+}
+.ContenedorC img{
+    float: right;
+    border: 2px solid rgb(194, 192, 192)
+}
+.ContenedorC h3{
+    padding-bottom: 20px;
+}
+.ContenedorC h4{
+    margin-left: 20px;
+    padding: 10px 0px;
+} 
+.ContenedorC p{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: rgb(100, 98, 98);
+}
+ .ContenedorC a{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+     color: black;
+ }
+
+/*PIE DE PAGINA*/
+
+.ContenedorD{
+    overflow: hidden;
+    background-color: grey;
+    padding: 20px;
+}
+.ContenedorD img{
+    float: left;
+    width: 300px;
+}
+.ContenedorD div{
+    float: right;
+}
+.ContenedorD div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ContenedorD div ul li{
+    margin-top:10px;
+    text-decoration: none;
+    color: white;
+   
+}

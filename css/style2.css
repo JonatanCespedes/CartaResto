@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    width: 1020px;
+    border: solid orange;
+}
+main{
+    padding: 20px;
+}
+h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.enviar{
+    margin-top: 10px;
+    color: white;
+    height: 30px;
+    width: 400px;
+    background-color: orange;
+    border-radius: 6px;
+    border: 2px solid orange
+}
+.reset{
+    margin-top: 10px;
+    color: orange;
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid orange
+}

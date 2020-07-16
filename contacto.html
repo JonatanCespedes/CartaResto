@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <main>
+    
+        <a href="index.html">Home</a>
+        <form action="index.html" method="GET">
+        <h3><label for="">¿De dónde sos?</label></h3>
+        
+        <select name="pais" id="">
+        <option value="AR">Argentina</option>
+        <option value="BR">Brasil</option>
+        <option value="CL">Chile</option>
+        </select>
+    
+        <h3><label for="">¿Qué te pareció la iluminación del ambiente?</label></h3>
+            <input type="checkbox" name="iluminacion" value="muy acorde"> Muy acorde <br>
+            <input type="checkbox" name="iluminacion" value="buena"> Buena, pero podria mejorar <br>
+            <input type="checkbox" name="iluminacion" value="mala"> Mala <br>
+
+        <h3><label for="">¿Qué tipo de plato fué el que más te gustó?</label></h3>
+            <input type="checkbox" name="plato" value="entrada"> Entrada <br>
+            <input type="checkbox" name="plato" value="plato principal"> Plato principal <br>
+            <input type="checkbox" name="plato" value="postre"> Postre <br>
+            <input type="checkbox" name="plato" value="otros"> Otros <br>
+
+        <h3><label for="">¿Recomendarías el lugar?</label></h3>
+                <input type="radio" name="lugar" value="s">Si
+                <input type="radio" name="lugar" value="n">No
+
+        <h3><label for="">¿Porqué?</label></h3>
+            <textarea name="Comentario" id="" cols="100" rows="10"></textarea>
+
+        <h3><label for="">Dejanos tus datos y nos pondremos en contacto con vos</label></h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" name="email" id=""><br><br>
+
+            <button class="enviar" type="submit" >Enviar</button>
+
+            <button class="reset" type="reset">Resetear</button>
+        </form>
+    </main>
+    
+</body>
+</html>
